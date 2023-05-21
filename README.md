@@ -76,7 +76,7 @@ dependencies {
 
 ## 文章介绍
 
-[一个简单的自定义输入框](https://juejin.cn/post/7216143702125166653)
+[Android自定义一个省份简称键盘](https://juejin.cn/post/7235484890019659834)
 
 ## 欢迎关注作者
 
