@@ -1,0 +1,7 @@
+apply from: "${rootProject.rootDir}/common.gradle"
+apply plugin: 'kotlin-kapt'
+project.ext.setAppDefaultConfig project
+dependencies {
+//    implementation project(path: ':plate')
+    implementation 'com.vip:plate:1.0.0'
+}

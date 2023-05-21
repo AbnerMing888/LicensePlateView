@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LicensePlateView">
+        <!--        整体的背景颜色-->
+        <attr name="lp_background" format="color" />
+        <!--        格子的边距-->
+        <attr name="lp_rect_spacing" format="dimension" />
+        <!--        格子的高度-->
+        <attr name="lp_rect_height" format="dimension" />
+        <!--        格子的距离上边-->
+        <attr name="lp_rect_margin_top" format="dimension" />
+        <!--        左右距离-->
+        <attr name="lp_margin_left_right" format="dimension" />
+        <!--        上边距离-->
+        <attr name="lp_margin_top" format="dimension" />
+        <!--        下边距离-->
+        <attr name="lp_margin_bottom" format="dimension" />
+        <!--        格子的背景-->
+        <attr name="lp_rect_background" format="reference" />
+        <!--        格子选择后的背景-->
+        <attr name="lp_rect_select_background" format="reference" />
+
+        <!--        格子的文字大小-->
+        <attr name="lp_rect_text_size" format="dimension" />
+        <!--        格子的文字颜色-->
+        <attr name="lp_rect_text_color" format="color" />
+        <!--        格子的文字选中颜色-->
+        <attr name="lp_rect_select_text_color" format="color" />
+
+        <!--是否显示完成按钮-->
+        <attr name="lp_is_show_complete" format="boolean" />
+        <!--完成按钮文字大小-->
+        <attr name="lp_complete_text_size" format="dimension" />
+        <!--完成按钮文字颜色-->
+        <attr name="lp_complete_text_color" format="color" />
+        <!--完成按钮文字内容-->
+        <attr name="lp_complete_text" format="string" />
+        <!--完成按钮距离上边-->
+        <attr name="lp_complete_margin_top" format="dimension" />
+        <!--完成按钮距离下边-->
+        <attr name="lp_complete_margin_bottom" format="dimension" />
+        <!--完成按钮距离右边-->
+        <attr name="lp_complete_margin_right" format="dimension" />
+        <!--是否触发点击效果-->
+        <attr name="lp_text_click_effect" format="boolean" />
+
+    </declare-styleable>
+
+
+</resources>
